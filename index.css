@@ -228,6 +228,41 @@ body{
     border-radius: 100px;
 }
 
+
+.acheivement_details_section{
+    width: 100%;
+    padding: 0 80px;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.acheivement_card{
+    width: calc((100% / 4) - 30px);
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.acheivement_card h3{
+    color: #000;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 46px;
+}
+
+.acheivement_card p{
+    color: #000;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
 .about_section{
     width: 100%;
     padding: 50px 80px;
@@ -910,7 +945,7 @@ body{
     .industry_engagement_card{
         width: 100%;
         padding: 10px 0px 10px 20px;
-        border-left: 4px solid #2c9ce2;
+        /* border-left: 4px solid #2c9ce2; */
     }
     
     .industry_engagement_card h3{
@@ -951,6 +986,24 @@ body{
     .swiper-button-next,
     .swiper-button-prev {
       display: none !important;
+    }
+
+    .acheivement_details_section{
+        padding: 0 16px;
+        gap: 6px;
+    }
+
+    .acheivement_card{
+        width: calc((100% / 2) - 6px);
+        margin-top: 20px;
+    }
+
+    .acheivement_card h3{
+        font-size: 36px;
+    }
+
+    .acheivement_card p{
+        font-size: 16px;
     }
 
 }
