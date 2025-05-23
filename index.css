@@ -148,11 +148,23 @@ body{
 
 .hero_item_section{
     width: 100%;
-    height: max-content;
+    min-height: 84vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 80px 80px;
-    background: linear-gradient( rgb(153, 130, 2), rgb(153, 130, 2), #000);
+    /* background: linear-gradient( rgb(153, 130, 2), rgb(153, 130, 2), #000); */
+    background: 
+        linear-gradient(
+            /* to right, */
+            #000000f7,
+            #000000cf,
+            rgb(107, 91, 1)
+        ),
+        url('./images/hero_image2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero_section_text_container{
