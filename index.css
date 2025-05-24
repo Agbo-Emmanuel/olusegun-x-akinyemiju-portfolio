@@ -92,8 +92,8 @@ body{
     height: 40%;
     /* background-color: red; */
     display: none;
-    color: rgb(153, 130, 2);
-    /* color: #457B9D; */
+    /* color: rgb(153, 130, 2); */
+    color: #fff;
     display: none;
     justify-content: center;
     align-items: center;
@@ -138,7 +138,7 @@ body{
     font-size: 22px;
     font-family: "Poppins",sans-serif;
     text-decoration: none;
-    color: rgb(153, 130, 2);
+    color: #fff;
     font-weight: 500;
     visibility: hidden;
     opacity: 0;
