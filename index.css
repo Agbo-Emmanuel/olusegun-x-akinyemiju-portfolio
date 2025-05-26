@@ -358,11 +358,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
+    background-color: lightgrey;
 }
 
 .brands_section h1{
-    color: #fff;
+    color: #000;
     font-size: 32px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -655,6 +655,7 @@ body{
     width: calc((100% / 3) - 30px);
     height: 300px !important;
     background-color: lightgrey;
+    position: relative;
 }
 
 .image_carousel_item img{
@@ -663,6 +664,27 @@ body{
     object-fit: cover;
     border-radius: 6px;
 }
+
+.image_carousel_tag_container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 20px 16px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 6px;
+}
+
+.image_carousel_tag_container p{
+    color: #000;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
 
 .contact_media_container{
     width: 100%;
